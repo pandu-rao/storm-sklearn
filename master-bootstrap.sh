@@ -7,7 +7,7 @@ sh install_salt.sh -M -L -P -p salt-cloud # -M: master, -L and -P: Apache libclo
 # Clone repo
 su ubuntu <<'EOF'
 cd ~
-git clone https://github.com/danielfrg/storm-sklearn.git
+git clone https://github.com/pandu-rao/storm-sklearn.git
 exit 0
 EOF
 

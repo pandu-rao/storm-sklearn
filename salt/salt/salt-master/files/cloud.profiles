@@ -1,17 +1,17 @@
 zookeeper:
   provider: zookeeper
-  image: ami-80778be8
+  image: ami-d726abbe
   size: m3.large
   ssh_username: ubuntu
 
 storm-nimbus:
   provider: storm-nimbus
-  image: ami-80778be8
+  image: ami-d726abbe
   size: m3.large
   ssh_username: ubuntu
 
 storm-supervisor:
   provider: storm-nimbus
-  image: ami-80778be8
+  image: ami-d726abbe
   size: m3.large
   ssh_username: ubuntu

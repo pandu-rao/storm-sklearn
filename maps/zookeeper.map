@@ -1,0 +1,4 @@
+zookeeper:
+  - zookeeper0
+  - zookeeper1
+  - zookeeper2

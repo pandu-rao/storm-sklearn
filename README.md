@@ -108,7 +108,7 @@ Host default
   UserKnownHostsFile /dev/null
   StrictHostKeyChecking no
   PasswordAuthentication no
-  IdentityFile /Users/danielfrg/.vagrant.d/insecure_private_key
+  IdentityFile ~/.vagrant.d/insecure_private_key
   IdentitiesOnly yes
   LogLevel FATAL
 ```

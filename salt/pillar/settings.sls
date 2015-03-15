@@ -1,2 +1,2 @@
 git:
-  repo: https://github.com/danielfrg/storm-sklearn.git
+  repo: https://github.com/pandu-rao/storm-sklearn.git
