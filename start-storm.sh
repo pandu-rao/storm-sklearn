@@ -1,3 +1,3 @@
 #!/bin/bash
 
-salt 'storm*' state.highstate
+salt -v 'storm*' state.highstate

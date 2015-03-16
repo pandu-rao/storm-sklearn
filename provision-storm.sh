@@ -1,3 +1,3 @@
 #!/bin/bash
 
-salt-cloud --map=/home/ubuntu/storm-sklearn/maps/storm.map --parallel
+salt-cloud -l debug --map=/home/ubuntu/storm-sklearn/maps/storm.map --parallel

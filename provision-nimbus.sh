@@ -1,3 +1,3 @@
 #!/bin/bash
 
-salt-cloud -p storm-nimbus storm-nimbus
+salt-cloud -l debug -p storm-nimbus storm-nimbus

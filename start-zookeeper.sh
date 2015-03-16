@@ -1,3 +1,3 @@
 #!/bin/bash
 
-salt 'zookeeper*' state.highstate --state-output=mixed
+salt -v 'zookeeper*' state.highstate --state-output=mixed

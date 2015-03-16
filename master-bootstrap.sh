@@ -1,5 +1,8 @@
 #!/bin/bash
 
+apt-get update && apt-get upgrade
+apt-get install mg git nmap
+
 # Install salt
 curl -o install_salt.sh -L https://bootstrap.saltstack.com
 sh install_salt.sh -M -L -P -p salt-cloud # -M: master, -L and -P: Apache libcloud
