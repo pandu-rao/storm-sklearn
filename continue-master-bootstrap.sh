@@ -1,3 +1,3 @@
 #!/bin/bash
 
-salt '*' state.highstate
+salt -v '*' state.highstate
