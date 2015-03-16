@@ -11,7 +11,7 @@ storm-nimbus:
   ssh_username: ubuntu
 
 storm-supervisor:
-  provider: storm-nimbus
+  provider: storm-supervisor
   image: ami-d726abbe
   size: m3.large
   ssh_username: ubuntu
