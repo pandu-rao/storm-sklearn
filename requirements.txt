@@ -1,2 +1,6 @@
-streamparse==0.0.13
+numpy==1.9.2
+
 scikit-learn==0.15.0
+
+# streamparse that does not setup its own virtualenvs
+-e git+https://github.com/pandu-rao/streamparse.git#egg=streamparse

@@ -3,19 +3,19 @@
     "topology_specs": "topologies/",
     "virtualenv_specs": "",
     "envs": {
-        "vagrant": {
-            "user": "vagrant",
-            "nimbus": "default",
-            "workers": [],
-            "log_path": "",
-            "virtualenv_root": "/home/ubuntu/envs"
-        },
-        "prod": {
-            "user": "ubuntu",
-            "nimbus": "EC2.HOST",
-            "workers": [],
-            "log_path": "",
-            "virtualenv_root": "/home/ubuntu/envs"
-        }
+	"vagrant": {
+	    "user": "vagrant",
+	    "nimbus": "default",
+	    "workers": [],
+	    "log_path": "",
+	    "virtualenv_root": "/home/ubuntu/envs"
+	},
+	"prod": {
+	    "user": "ubuntu",
+	    "nimbus": "storm-nimbus",
+	    "workers": [],
+	    "log_path": "",
+	    "virtualenv_root": "/home/ubuntu/envs"
+	}
     }
 }

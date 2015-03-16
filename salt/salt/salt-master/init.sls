@@ -38,3 +38,10 @@ requests:
     - source: salt://salt-master/files/cloud.profiles
     - user: root
     - template: jinja
+
+/usr/local/bin/lein:
+  file.managed:
+    - source: salt://salt-master/files/lein
+    - user: root
+    - group: root
+    - file_mode: '0755'
