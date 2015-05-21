@@ -1,14 +1,11 @@
 #!/bin/bash
 
+add-apt-repository ppa:saltstack/salt
 apt-get -yqq update && apt-get -yqq upgrade
 apt-get -yqq install mg git nmap
 apt-get -yqq install gcc g++
 apt-get -yqq install python-dev virtualenvwrapper
-
-
-# Install salt
-curl -o install_salt.sh -L https://bootstrap.saltstack.com
-sh install_salt.sh -M -L -P -p salt-cloud # -M: master, -L and -P: Apache libcloud
+apt-get -yqq install salt-cloud
 
 # Clone repo
 su ubuntu <<'EOF'
