@@ -6,4 +6,7 @@ storm.zookeeper.servers:
 
 nimbus.host: "{{ storm.nimbus_host }}"
 
+drpc.servers:
+  - "{{ storm.nimbus_host }}"
+
 storm.local.dir: "{{ storm.data_dir }}"
