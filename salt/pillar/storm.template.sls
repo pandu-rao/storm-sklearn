@@ -1,6 +1,6 @@
 storm:
-  source_url: http://mirror.nexcess.net/apache/incubator/storm/apache-storm-0.9.2-incubating/apache-storm-0.9.2-incubating.tar.gz
-  version_name: apache-storm-0.9.2-incubating
+  source_url: http://mirror.reverse.net/pub/apache/storm/apache-storm-0.9.4/apache-storm-0.9.4.tar.gz
+  version_name: apache-storm-0.9.4
   home: /usr/lib/storm
   data_dir: /var/lib/storm/data
   dl_opts: -L
