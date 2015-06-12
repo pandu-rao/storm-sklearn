@@ -6,3 +6,6 @@ storm-supervisor:
     - name: supervisor
     - require:
       - sls: storm
+
+python-sklearn:
+  pkg.installed
