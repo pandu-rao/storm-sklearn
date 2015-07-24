@@ -15,8 +15,8 @@ ln -s /usr/local/bin/pip /usr/bin/pip;
 
 murl='http://www.gtlib.gatech.edu/pub/apache/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.tar.gz';
 surl='http://psg.mtu.edu/pub/apache/storm/apache-storm-0.9.4/apache-storm-0.9.4.tar.gz';
-mkdir ~/maven && wget "$murl" -O - | tar zxvf - -C maven --strip-components=1;
-mkdir ~/storm && wget "$surl" -O - | tar zxvf - -C storm --strip-components=1;
+mkdir ~/maven && wget "$murl" -O - | tar zxvf - -C ~/maven --strip-components=1;
+mkdir ~/storm && wget "$surl" -O - | tar zxvf - -C ~/storm --strip-components=1;
 echo 'export PATH="$PATH:~/maven/bin:~/storm/bin"' >> ~/.bashrc;
 
 apt-get -yqq install salt-cloud;
