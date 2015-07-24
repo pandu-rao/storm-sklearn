@@ -8,6 +8,5 @@ storm:
   # Instance settings
   private_key_path: "/home/ubuntu/.ssh/storm-keypair.pem"
   private_key_name: "storm-keypair"
-  security_group: "mongoose-perf-online"
   location: "ap-southeast-1"
   availability_zone: "ap-southeast-1b"
