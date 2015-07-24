@@ -20,7 +20,6 @@ zookeeper:
   private_key: {{ pillar['zookeeper']['private_key_path'] }}
   keyname: {{ pillar['zookeeper']['private_key_name'] }}
 
-  securitygroup: {{ pillar['zookeeper']['security_group'] }}
   location: {{ pillar['zookeeper']['location'] }}
   availability_zone: {{ pillar['zookeeper']['availability_zone'] }}
 
@@ -46,7 +45,6 @@ storm-nimbus:
   private_key: {{ pillar['storm']['private_key_path'] }}
   keyname: {{ pillar['storm']['private_key_name'] }}
 
-  securitygroup: {{ pillar['storm']['security_group'] }}
   location: {{ pillar['storm']['location'] }}
   availability_zone: {{ pillar['storm']['availability_zone'] }}
 
@@ -72,6 +70,5 @@ storm-supervisor:
   private_key: {{ pillar['storm']['private_key_path'] }}
   keyname: {{ pillar['storm']['private_key_name'] }}
 
-  securitygroup: {{ pillar['storm']['security_group'] }}
   location: {{ pillar['storm']['location'] }}
   availability_zone: {{ pillar['storm']['availability_zone'] }}
