@@ -1,6 +1,6 @@
 zookeeper:
   provider: zookeeper
-  image: ami-72b2a71a
+  image: ami-02f3f150
   size: m3.large
   ssh_username: ubuntu
   subnetid: subnet-c7e86ba2
@@ -9,7 +9,7 @@ zookeeper:
 
 storm-nimbus:
   provider: storm-nimbus
-  image: ami-72b2a71a
+  image: ami-02f3f150
   size: m3.large
   ssh_username: ubuntu
   subnetid: subnet-c7e86ba2
@@ -18,7 +18,7 @@ storm-nimbus:
 
 storm-supervisor:
   provider: storm-supervisor
-  image: ami-72b2a71a
+  image: ami-02f3f150
   size: m3.large
   ssh_username: ubuntu
   subnetid: subnet-c7e86ba2
