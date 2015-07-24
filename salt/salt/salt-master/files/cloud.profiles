@@ -3,15 +3,24 @@ zookeeper:
   image: ami-72b2a71a
   size: m3.large
   ssh_username: ubuntu
+  subnetid: subnet-c7e86ba2
+  securitygroupid:
+    - sg-a88f10cd
 
 storm-nimbus:
   provider: storm-nimbus
   image: ami-72b2a71a
   size: m3.large
   ssh_username: ubuntu
+  subnetid: subnet-c7e86ba2
+  securitygroupid:
+    - sg-a88f10cd
 
 storm-supervisor:
   provider: storm-supervisor
   image: ami-72b2a71a
   size: m3.large
   ssh_username: ubuntu
+  subnetid: subnet-c7e86ba2
+  securitygroupid:
+    - sg-a88f10cd
