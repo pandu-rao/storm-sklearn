@@ -11,4 +11,4 @@ zookeeper:
     private_key_path: "/home/ubuntu/.ssh/storm-keypair.pem"
     private_key_name: "storm-keypair"
     location: "ap-southeast-1"
-    availability_zone: "ap-southeast-1b"
+    availability_zone: "ap-southeast-1a"

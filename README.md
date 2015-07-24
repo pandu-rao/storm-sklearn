@@ -44,7 +44,7 @@ private_key_path: "/home/ubuntu/.ssh/your_keypair.pem"
 private_key_name: "your_keypair"
 security_group: "open"
 location: "ap-southeast-1"
-availability_zone: "ap-southeast-1b"
+availability_zone: "ap-southeast-1a"
 ```
 
 Now you can bootstrap the salt-master using itself!:
