@@ -3,24 +3,24 @@ zookeeper:
   image: ami-02f3f150
   size: m3.large
   ssh_username: ubuntu
-  subnetid: mongoose-perf-public-subnet-id
+  subnetid: mongoose-perf-private-subnet-id
   securitygroupid:
-    - mongoose-perf-public-sg-id
+    - mongoose-perf-private-sg-id
 
 storm-nimbus:
   provider: storm-nimbus
   image: ami-02f3f150
   size: m3.large
   ssh_username: ubuntu
-  subnetid: mongoose-perf-public-subnet-id
+  subnetid: mongoose-perf-private-subnet-id
   securitygroupid:
-    - mongoose-perf-public-sg-id
+    - mongoose-perf-private-sg-id
 
 storm-supervisor:
   provider: storm-supervisor
   image: ami-02f3f150
   size: m3.large
   ssh_username: ubuntu
-  subnetid: mongoose-perf-public-subnet-id
+  subnetid: mongoose-perf-private-subnet-id
   securitygroupid:
-    - mongoose-perf-public-sg-id
+    - mongoose-perf-private-sg-id
