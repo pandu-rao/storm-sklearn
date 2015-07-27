@@ -24,3 +24,15 @@ storm-supervisor:
   subnetid: mongoose-qa-private-subnet-id
   securitygroupid:
     - mongoose-qa-private-sg-id
+
+web:
+  provider: web
+  image: ami-02f3f150
+  size: m3.large
+  ssh_username: ubuntu
+  network_interfaces:
+    - DeviceIndex: 0
+      allocate_new_eip: True
+      SubnetId: mongoose-qa-public-subnet-id
+      SecurityGroupId:
+        - mongoose-qa-public-sg-id

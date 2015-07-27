@@ -72,3 +72,28 @@ storm-supervisor:
 
   location: {{ pillar['storm']['location'] }}
   availability_zone: {{ pillar['storm']['availability_zone'] }}
+
+web:
+  provider: ec2
+
+  # Minion specific settings
+  minion:
+    master: {{ grains['fqdn_ip4'][0] }}
+
+  grains:
+    roles:
+      - web
+
+  # private_ips: The salt-master is also hosted with EC2
+  ssh_interface: private_ips
+
+  # Set the EC2 access credentials (see below)
+  id: {{ pillar['aws']['access_key'] }}
+  key: {{ pillar['aws']['secret_key'] }}
+
+  # Make sure this key is owned by root with permissions 0400.
+  private_key: {{ pillar['web']['private_key_path'] }}
+  keyname: {{ pillar['web']['private_key_name'] }}
+
+  location: {{ pillar['web']['location'] }}
+  availability_zone: {{ pillar['storm']['availability_zone'] }}
