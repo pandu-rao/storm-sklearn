@@ -1,3 +1,3 @@
 #!/bin/bash
 
-salt-cloud -p storm-nimbus storm-nimbus
+salt-cloud --map=/home/ubuntu/storm-sklearn/maps/nimbus.map
