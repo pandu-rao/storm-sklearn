@@ -6,7 +6,7 @@ storm:
   dl_opts: -L
 
   # Instance settings
-  private_key_path: "/home/ubuntu/.ssh/storm-keypair.pem"
-  private_key_name: "storm-keypair"
+  private_key_path: "/home/ubuntu/.ssh/mongoose-qa"
+  private_key_name: "mongoose-qa"
   location: "ap-southeast-1"
   availability_zone: "ap-southeast-1a"

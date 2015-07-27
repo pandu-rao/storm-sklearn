@@ -1,4 +1,4 @@
 zookeeper:
-  - zookeeper0
-  - zookeeper1
-  - zookeeper2
+  - mongoose-qa-zookeeper0
+  - mongoose-qa-zookeeper1
+  - mongoose-qa-zookeeper2
