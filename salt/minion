@@ -8,3 +8,4 @@ grains:
     - zookeeper
     - storm-nimbus
     - storm-supervisor
+    - web

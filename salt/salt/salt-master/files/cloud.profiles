@@ -24,3 +24,15 @@ storm-supervisor:
   subnetid: mongoose-perf-private-subnet-id
   securitygroupid:
     - mongoose-perf-private-sg-id
+
+web:
+  provider: web
+  image: ami-02f3f150
+  size: m3.large
+  ssh_username: ubuntu
+  network_interfaces:
+    - DeviceIndex: 0
+      allocate_new_eip: True
+      SubnetId: mongoose-perf-public-subnet-id
+      SecurityGroupId:
+        - mongoose-perf-public-sg-id

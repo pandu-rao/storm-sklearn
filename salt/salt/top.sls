@@ -12,3 +12,5 @@ base:
     - storm.supervisor
     - pythonenv
     - topology
+  'web':
+    - web
