@@ -5,7 +5,7 @@ repository:
   git.latest:
     - name: {{ pillar['git']['repo'] }}
     - target: /home/ubuntu/storm-sklearn
-    - rev: master
+    - rev: mongoose-qa
     - force_checkout: True
     - user: ubuntu
     - require:
