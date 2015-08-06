@@ -3,27 +3,27 @@ zookeeper:
   image: ami-02f3f150
   size: m3.large
   ssh_username: ubuntu
-  subnetid: mongoose-qa-private-subnet-id
+  subnetid: subnet-6bbf310e
   securitygroupid:
-    - mongoose-qa-private-sg-id
+    - sg-26eb7143
 
 storm-nimbus:
   provider: storm-nimbus
   image: ami-02f3f150
   size: m3.large
   ssh_username: ubuntu
-  subnetid: mongoose-qa-private-subnet-id
+  subnetid: subnet-6bbf310e
   securitygroupid:
-    - mongoose-qa-private-sg-id
+    - sg-26eb7143
 
 storm-supervisor:
   provider: storm-supervisor
   image: ami-02f3f150
   size: m3.large
   ssh_username: ubuntu
-  subnetid: mongoose-qa-private-subnet-id
+  subnetid: subnet-6bbf310e
   securitygroupid:
-    - mongoose-qa-private-sg-id
+    - sg-26eb7143
 
 web:
   provider: web
@@ -33,6 +33,6 @@ web:
   network_interfaces:
     - DeviceIndex: 0
       allocate_new_eip: True
-      SubnetId: mongoose-qa-public-subnet-id
+      SubnetId: subnet-6abf310f
       SecurityGroupId:
-        - mongoose-qa-public-sg-id
+        - sg-a7f56fc2
